@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a8da61-053c-4c35-adab-d89fe52a90bb" name="Changes" comment="added custom exceptions">
+    <list default="true" id="84a8da61-053c-4c35-adab-d89fe52a90bb" name="Changes" comment="added exception throwing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/deanery/Deanery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/deanery/Deanery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/student/FullTimeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/student/FullTimeStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/student/PartTimeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/student/PartTimeStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/student/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -86,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657629866641</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added exception throwing">
+      <created>1657632737687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657632737687</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added string format" />
     <MESSAGE value="added custom exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added custom exceptions" />
+    <MESSAGE value="added exception throwing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added exception throwing" />
   </component>
 </project>
