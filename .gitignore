@@ -8,6 +8,7 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+#TODO whole .idea folder should be ignored
 *.iws
 *.iml
 *.ipr

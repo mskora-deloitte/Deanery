@@ -28,7 +28,7 @@ public class Main {
         List<String> roomNumbers = new ArrayList<>(List.of("A123", "A123", "B123", "B123", "C124", "C124", "D124", "D124"));
         List<Integer> hours = new ArrayList<>(List.of(10, 11, 12, 13, 10, 12, 17, 19));
 
-        for (int i = 0; i < students.size(); i++) {
+        for (int i = 0; i < students.size(); i++) { // TODO it would be more clear to use the foreach loop here
             try {
                 System.out.println(students.get(i).serve(incorrectRoomNumbers.get(i), incorrectHours.get(i)));
             } catch (WrongRoomNumberException | VisitInClosedHoursException e) {
@@ -46,6 +46,7 @@ public class Main {
 
         // PART II
 
+        //TODO this part could be extracted to a new method
         Scanner sc = new Scanner(System.in);
         boolean exit = false;
         while (!exit) {

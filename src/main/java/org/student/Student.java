@@ -33,17 +33,19 @@ public abstract class Student {
         this.surname = surname;
     }
 
-    public Student(String id,String name,String surname) {
+    public Student(String id,String name,String surname) { // TODO add spaces between parameters - CTRL + ALT + L does the job in IntelliJ ;)
         this.id = id;
         this.name = name;
         this.surname = surname;
     }
 
-    public String serve(String roomNumber, Integer visitHour) throws WrongRoomNumberException, VisitInClosedHoursException {
+    public String serve(String roomNumber, Integer visitHour) throws WrongRoomNumberException, VisitInClosedHoursException { //TODO a small int can be used as well
         Date date = new Date();
         SimpleDateFormat timeFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm");
         Deanery.checkVisitation(this, roomNumber, visitHour);
         return
+                //TODO when you use \t for creating a table, the report will not keep the format when e.g. first name is super long and last name is short
+                // so for the future -> use String format with specifying the fixed lenght - using %20s for example
                 "------------------------------------------\n" +
                 "\t\t" + id + "\n\n" +
                 "First Name:\t" + name + "\n" +
